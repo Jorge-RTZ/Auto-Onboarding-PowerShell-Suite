@@ -9,7 +9,7 @@ Built to demonstrate real-world IT systems administration skills using the same 
 ## Features
 
 - **CSV-driven input** — reads any number of new hire records from a structured CSV file
-- **Automatic username generation** — builds usernames from first initial + last name, handles duplicates automatically (e.g. `twilliams`, `twilliams2`)
+- **Automatic username generation** — builds usernames from first initial + last name, handles duplicates automatically (e.g. `ajohnson`, `ajohnson2`)
 - **Department OU routing** — maps each hire to their correct Organizational Unit (IT, HR, Finance, Sales, Operations)
 - **Secure password generation** — cryptographically random 14-character temporary passwords using `RandomNumberGenerator`
 - **Manager email notification** — sends formatted onboarding emails with credentials to the hiring manager
@@ -55,7 +55,7 @@ cd C:\Projects\AutoOnboarding
 
 | Column | Description | Example |
 |---|---|---|
-| FirstName | New hire first name | Thanos |
+| FirstName | New hire first name | Alex |
 | LastName | New hire last name | Williams |
 | Title | Job title | Systems Administrator |
 | Department | Department name (must match OU map) | IT |
@@ -69,14 +69,14 @@ cd C:\Projects\AutoOnboarding
 
 ```
 [2026-05-13 15:49:33] [INFO]    [User: SYSTEM] Loaded 4 new hire record(s).
-[2026-05-13 15:49:33] [INFO]    [User: Thanos Williams] Processing: Thanos Williams | Systems Administrator | IT
-[2026-05-13 15:49:33] [SUCCESS] [User: Thanos Williams] [SIMULATED] AD account created: twilliams | UPN: twilliams@company.local
-[2026-05-13 15:49:33] [SUCCESS] [User: Thanos Williams] [SIMULATED] Welcome email sent to: msantos@company.local
+[2026-05-13 15:49:33] [INFO]    [User: Alex Johnson] Processing: Alex Johnson | Systems Administrator | IT
+[2026-05-13 15:49:33] [SUCCESS] [User: Alex Johnson] [SIMULATED] AD account created: ajohnson | UPN: ajohnson@company.local
+[2026-05-13 15:49:33] [SUCCESS] [User: Alex Johnson] [SIMULATED] Welcome email sent to: msantos@company.local
 [2026-05-13 15:49:33] [SUCCESS] [User: SYSTEM] Succeeded : 4
 
 Name             Status   Username    Email
 ----             ------   --------    -----
-Thanos Williams  SUCCESS  twilliams  twilliams@company.local
+Alex Johnson  SUCCESS  ajohnson  ajohnson@company.local
 Emily Chen       SUCCESS  echen       echen@company.local
 Marcus Williams  SUCCESS  mwilliams   mwilliams@company.local
 Priya Patel      SUCCESS  ppatel      ppatel@company.local
