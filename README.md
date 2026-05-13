@@ -55,8 +55,8 @@ cd C:\Projects\AutoOnboarding
 
 | Column | Description | Example |
 |---|---|---|
-| FirstName | New hire first name | Jorge |
-| LastName | New hire last name | Rodriguez |
+| FirstName | New hire first name | Thanos |
+| LastName | New hire last name | Williams |
 | Title | Job title | Systems Administrator |
 | Department | Department name (must match OU map) | IT |
 | EmailDomain | Domain for UPN and email | company.local |
@@ -69,14 +69,14 @@ cd C:\Projects\AutoOnboarding
 
 ```
 [2026-05-13 15:49:33] [INFO]    [User: SYSTEM] Loaded 4 new hire record(s).
-[2026-05-13 15:49:33] [INFO]    [User: Jorge Rodriguez] Processing: Jorge Rodriguez | Systems Administrator | IT
-[2026-05-13 15:49:33] [SUCCESS] [User: Jorge Rodriguez] [SIMULATED] AD account created: jrodriguez | UPN: jrodriguez@company.local
-[2026-05-13 15:49:33] [SUCCESS] [User: Jorge Rodriguez] [SIMULATED] Welcome email sent to: msantos@company.local
+[2026-05-13 15:49:33] [INFO]    [User: Thanos Williams] Processing: Thanos Williams | Systems Administrator | IT
+[2026-05-13 15:49:33] [SUCCESS] [User: Thanos Williams] [SIMULATED] AD account created: jrodriguez | UPN: twilliams@company.local
+[2026-05-13 15:49:33] [SUCCESS] [User: Thanos Williams] [SIMULATED] Welcome email sent to: msantos@company.local
 [2026-05-13 15:49:33] [SUCCESS] [User: SYSTEM] Succeeded : 4
 
 Name             Status   Username    Email
 ----             ------   --------    -----
-Jorge Rodriguez  SUCCESS  jrodriguez  jrodriguez@company.local
+Thanos Williams  SUCCESS  twilliams  twilliams@company.local
 Emily Chen       SUCCESS  echen       echen@company.local
 Marcus Williams  SUCCESS  mwilliams   mwilliams@company.local
 Priya Patel      SUCCESS  ppatel      ppatel@company.local
