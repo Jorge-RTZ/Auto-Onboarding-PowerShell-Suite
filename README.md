@@ -70,7 +70,7 @@ cd C:\Projects\AutoOnboarding
 ```
 [2026-05-13 15:49:33] [INFO]    [User: SYSTEM] Loaded 4 new hire record(s).
 [2026-05-13 15:49:33] [INFO]    [User: Thanos Williams] Processing: Thanos Williams | Systems Administrator | IT
-[2026-05-13 15:49:33] [SUCCESS] [User: Thanos Williams] [SIMULATED] AD account created: jrodriguez | UPN: twilliams@company.local
+[2026-05-13 15:49:33] [SUCCESS] [User: Thanos Williams] [SIMULATED] AD account created: twilliams | UPN: twilliams@company.local
 [2026-05-13 15:49:33] [SUCCESS] [User: Thanos Williams] [SIMULATED] Welcome email sent to: msantos@company.local
 [2026-05-13 15:49:33] [SUCCESS] [User: SYSTEM] Succeeded : 4
 
