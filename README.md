@@ -9,7 +9,7 @@ Built to demonstrate real-world IT systems administration skills using the same 
 ## Features
 
 - **CSV-driven input** — reads any number of new hire records from a structured CSV file
-- **Automatic username generation** — builds usernames from first initial + last name, handles duplicates automatically (e.g. `jrodriguez`, `jrodriguez2`)
+- **Automatic username generation** — builds usernames from first initial + last name, handles duplicates automatically (e.g. `twilliams`, `twilliams2`)
 - **Department OU routing** — maps each hire to their correct Organizational Unit (IT, HR, Finance, Sales, Operations)
 - **Secure password generation** — cryptographically random 14-character temporary passwords using `RandomNumberGenerator`
 - **Manager email notification** — sends formatted onboarding emails with credentials to the hiring manager
